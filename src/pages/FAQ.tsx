@@ -133,7 +133,7 @@ const FAQ = () => {
   return (
     <Layout>
       <SEOHead
-        title="Renting a Car in Trogir: Your Top Questions Answered | Trogir Car Rental"
+        title="Trogir Car Rental FAQ | Top Questions Answered"
         description="Trogir car rental is straightforward for drivers with a valid license, a credit card, and the right insurance documents. Split Airport (SPU) is only"
         canonical="https://trogir-car-rental.com/trogir-car-rental-faq"
         jsonLd={[breadcrumbSchema, faqSchema]}
@@ -151,7 +151,7 @@ const FAQ = () => {
       />
 
       <section className="container max-w-4xl py-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Trogir Car Rental FAQ</h1>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Trogir Car Rental FAQ</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">Below you will find the most common questions about renting a car in Trogir. For route-specific advice, read our <Link to="/day-trips-from-trogir" className="text-primary underline hover:text-accent">Dalmatia day-trip itineraries</Link>, our <Link to="/driving-in-trogir" className="text-primary underline hover:text-accent">driving rules and parking prices guide</Link>, or our <Link to="/trogir-beaches-by-car" className="text-primary underline hover:text-accent">Ciovo Island beach access guide</Link>.</p>
       </section>
 
@@ -170,15 +170,6 @@ const FAQ = () => {
           { question: "Q10: What should I do if I have a breakdown or accident?", answer: "In an emergency, call <strong>1987</strong> to reach <strong>HAK</strong>, the Croatian Auto Club, which provides roadside assistance and traffic support across Croatia. Save the police number <strong>192</strong> and general emergency number <strong>112</strong>, and if you are calling from outside Croatia use <strong>+385 1 1987</strong>. For a rental car issue near <strong>Trogir</strong>, <strong>Split Airport</strong>, <strong>Kastel Stafilic</strong>, or the <strong>Bay of Kastela</strong>, call the rental company first if the car is still drivable, then follow the HAK instructions if it is not. Drivers on routes toward <strong>Klis Fortress</strong>, <strong>Primosten</strong>, or <strong>Krka National Park</strong> should keep the HAK app installed for live traffic and incident updates. <strong>E-E-A-T note:</strong> HAK is the national roadside-assistance authority, and the 1987 hotline plus 112 emergency number are the key live-contact references for Croatia." }
         ]}
       />
-      </section>
-
-      <section className="container max-w-4xl py-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Related guides</h2>
-        <ul className="space-y-2 list-disc pl-5">
-          <li><a href="/trogir-airport-car-rental" className="text-primary hover:underline">Airport</a></li>
-          <li><a href="/driving-in-trogir" className="text-primary hover:underline">Driving Tips</a></li>
-          <li><a href="/day-trips-from-trogir" className="text-primary hover:underline">Day Trips</a></li>
-        </ul>
       </section>
 
       <div className="flex justify-center pb-12">

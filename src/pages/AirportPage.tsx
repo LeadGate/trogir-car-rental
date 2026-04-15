@@ -60,7 +60,7 @@ const AirportPage = () => {
   return (
     <Layout>
       <SEOHead
-        title="Navigating Split Airport Car Rental: The Insider's Guide for Trogir Visitors | Trogir Car Rental"
+        title="Split Airport Car Rental for Trogir | Guide"
         description="Split Airport car rental is the fastest way to reach Trogir Old Town, and the airport-to-town drive is usually 5.2 to 6.0 km in 10 to 15 minutes in normal"
         canonical="https://trogir-car-rental.com/trogir-airport-car-rental"
         jsonLd={[breadcrumbSchema, articleSchema]}
@@ -164,15 +164,6 @@ const AirportPage = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Which Split Airport rental company is best for low deposits?</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Avax Rent a Car and Lutar Rent a Car are often considered lower-hold options because some bookings advertise smaller or no deposit requirements. Avax has shown rates from <strong>€19/day</strong>, while Lutar often starts around <strong>€27.60/day</strong> for economy cars like the VW Up. If you are comparing premium cars such as the Mercedes C220d, expect the hold to rise even when the daily rate looks competitive.</p>
       </Section>
-
-      <section className="container max-w-4xl py-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Related guides</h2>
-        <ul className="space-y-2 list-disc pl-5">
-          <li><a href="/driving-in-trogir" className="text-primary hover:underline">Driving Tips</a></li>
-          <li><a href="/day-trips-from-trogir" className="text-primary hover:underline">Day Trips</a></li>
-          <li><a href="/trogir-beaches-by-car" className="text-primary hover:underline">Beaches</a></li>
-        </ul>
-      </section>
 
       <div className="flex justify-center pb-12">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>

@@ -60,7 +60,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Mastering the Roads: Driving and Parking in Trogir | Trogir Car Rental"
+        title="Driving and Parking in Trogir | Rules & Prices"
         description="Trogir is a compact UNESCO-listed town on the Dalmatian coast, and the fastest way to explore Central Dalmatia is with a rental car booked through Split"
         canonical="https://trogir-car-rental.com/driving-in-trogir"
         jsonLd={[breadcrumbSchema, articleSchema]}
@@ -151,15 +151,6 @@ const DrivingGuide = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Can I drive from Trogir to nearby beaches and islands?</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Yes, Trogir is a good base for driving to Pantan Beach, Medena Beach, Uvala Duga, Okrug Gornji, and Ciovo Island, while ferries from Split connect to Brac, Hvar, Solta, Drvenik Veli, and Drvenik Mali. The drive to the Split Airport area and nearby Plano is short, usually under 15 minutes in normal traffic, and HAC maintains the main motorway links inland. The exception is that island day trips depend on Jadrolinija schedules, so you should check sailing times before committing to a late return.</p>
       </Section>
-
-      <section className="container max-w-4xl py-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Related guides</h2>
-        <ul className="space-y-2 list-disc pl-5">
-          <li><a href="/trogir-airport-car-rental" className="text-primary hover:underline">Airport</a></li>
-          <li><a href="/day-trips-from-trogir" className="text-primary hover:underline">Day Trips</a></li>
-          <li><a href="/trogir-beaches-by-car" className="text-primary hover:underline">Beaches</a></li>
-        </ul>
-      </section>
 
       <div className="flex justify-center pb-12">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>

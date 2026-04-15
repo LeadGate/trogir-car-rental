@@ -60,7 +60,7 @@ const DayTrips = () => {
   return (
     <Layout>
       <SEOHead
-        title="Unlock Dalmatia: Your Ultimate Trogir Road Trip Itinerary | Trogir Car Rental"
+        title="Day Trips From Trogir | Dalmatia Road Itinerary"
         description="Trogir is a practical base for driving in Central Dalmatia because SPU Split Airport, the A1 motorway, and the Adriatic coast are all within easy reach. A"
         canonical="https://trogir-car-rental.com/day-trips-from-trogir"
         jsonLd={[breadcrumbSchema, articleSchema]}
@@ -155,15 +155,6 @@ const DayTrips = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Which vehicle is best for coastal and inland routes around Trogir?</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">A VW Golf or Opel Astra is the best all-round choice for most Trogir road trips, while a Skoda Octavia or Mercedes E-Class suits longer motorway runs and a Nissan Qashqai or Opel Grandland suits the Klis and Sinj hills. Economy models like the VW Up and Opel Corsa are cheapest for city parking, and an Opel Zafira works well for larger families. The exception is ferry-heavy island travel, where smaller vehicles are easier to board and park.</p>
       </Section>
-
-      <section className="container max-w-4xl py-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Related guides</h2>
-        <ul className="space-y-2 list-disc pl-5">
-          <li><a href="/trogir-airport-car-rental" className="text-primary hover:underline">Airport</a></li>
-          <li><a href="/driving-in-trogir" className="text-primary hover:underline">Driving Tips</a></li>
-          <li><a href="/trogir-beaches-by-car" className="text-primary hover:underline">Beaches</a></li>
-        </ul>
-      </section>
 
       <div className="flex justify-center pb-12">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>

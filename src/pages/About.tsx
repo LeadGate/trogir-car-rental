@@ -24,7 +24,6 @@ const About = () => {
 
       <Section
         icon={<Info className="w-6 h-6" />}
-        title="About Trogir Car Rental"
       >
         <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">About Trogir Car Rental</h1>
         <p className="text-gray-700 mb-4 leading-relaxed">
@@ -33,6 +32,27 @@ const About = () => {
         <p className="text-gray-700 mb-4 leading-relaxed">
           Our goal is to save you time and money by presenting transparent, up-to-date information about car hire options in Trogir and the surrounding area. Start by <Link to="/trogir-airport-car-rental" className="text-primary underline hover:text-accent">collecting your car at Split Airport</Link> or browse our <Link to="/trogir-car-rental-faq" className="text-primary underline hover:text-accent">car rental FAQ</Link> for insurance and deposit answers.
         </p>
+
+        <h3 className="text-xl font-bold mt-6 mb-3">How We Research</h3>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Every guide on this site is built from verifiable local sources rather than generic travel copy. Parking prices come from the Trogir Official Gazette (Službeni glasnik), published by the City of Trogir administration. Ferry schedules and fares reference Jadrolinija's published timetables for Dalmatian routes including Brač, Šolta, Hvar, Drvenik Veli, and Drvenik Mali. Emergency and roadside assistance information is sourced from HAK (Hrvatski autoklub), the Croatian Auto Club, which operates the national 1987 helpline. Motorway toll data references Hrvatske autoceste (HAC) published tariff tables, and fuel price benchmarks follow the Croatian government's bi-weekly price cap announcements.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          We cross-check rental company claims against publicly available review signals on Google Reviews and Trustpilot, and we update pricing data, insurance terms, and road rule references on a rolling basis so that the information stays current through each tourist season. When Croatian regulations change — such as updated speed camera zones on the Kaštela corridor or revised parking tariffs — we revise the affected guides within the same month.
+        </p>
+
+        <h3 className="text-xl font-bold mt-6 mb-3">What We Cover</h3>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Our content is structured around the practical decisions a visitor faces when renting a car in the Trogir area:
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 mb-4 leading-relaxed space-y-2">
+          <li><strong>Airport pickup and return</strong> — step-by-step process at Split Airport (SPU), including meet-and-greet options, deposit holds, and peak-season queue times.</li>
+          <li><strong>Insurance and deposits</strong> — CDW, SCDW, zero excess, full coverage, franchise amounts, and how preauthorisation works across different suppliers.</li>
+          <li><strong>Driving rules and parking</strong> — Croatian speed limits, BAC rules, mandatory equipment, and 2026 parking lot prices in Trogir, Čiovo Island, and the Kaštela Riviera.</li>
+          <li><strong>Day trips and itineraries</strong> — road distances, tolls, and drive times to Krka National Park, Šibenik, Primošten, Klis Fortress, Sinj, and island ferry connections.</li>
+          <li><strong>Beach access by car</strong> — parking availability and costs at Okrug Gornji, Pantan Beach, Medena Beach, and Uvala Duga on Čiovo Island.</li>
+          <li><strong>Vehicle selection</strong> — which car class suits which itinerary, from economy hatchbacks to SUVs and premium sedans.</li>
+        </ul>
 
         <h3 className="text-xl font-bold mt-6 mb-3">Affiliate Disclosure</h3>
         <p className="text-gray-700 mb-4 leading-relaxed">

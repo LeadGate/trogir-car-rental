@@ -60,7 +60,7 @@ const BeachGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Unlock Ciovo Island: Stress-Free Driving, Parking, and Rental Tips for Trogir | Trogir Car Rental"
+        title="Ciovo Island Driving, Parking & Rental Tips"
         description="Ciovo Island is a short-drive destination on the Dalmatian coast, and the practical challenge is not distance but timing, parking, and bridge congestion."
         canonical="https://trogir-car-rental.com/trogir-beaches-by-car"
         jsonLd={[breadcrumbSchema, articleSchema]}
@@ -150,15 +150,6 @@ const BeachGuide = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Can I use a scooter instead of a car on Ciovo Island?</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Yes, a scooter can be a practical substitute for a car on Ciovo Island, especially for beach hopping and bridge-traffic avoidance. A Piaggio Medley 125 is a common option, and local scooter rentals are often cheaper than a car for single travelers or couples. The caveat is that scooters are less suitable for luggage, rain, or longer day trips to Krka National Park, Primosten, or Sibenik.</p>
       </Section>
-
-      <section className="container max-w-4xl py-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Related guides</h2>
-        <ul className="space-y-2 list-disc pl-5">
-          <li><a href="/trogir-airport-car-rental" className="text-primary hover:underline">Airport</a></li>
-          <li><a href="/driving-in-trogir" className="text-primary hover:underline">Driving Tips</a></li>
-          <li><a href="/day-trips-from-trogir" className="text-primary hover:underline">Day Trips</a></li>
-        </ul>
-      </section>
 
       <div className="flex justify-center pb-12">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
