@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trogir-car-rental.com/sitemap.xml

@@ -1,0 +1,18 @@
+# Trogir Car Rental
+
+> Trogir Car Rental helps travellers compare and book car rentals.
+
+- Website: https://trogir-car-rental.com
+- Email: info@trogir-car-rental.com
+
+## Pages
+
+- [Home](https://trogir-car-rental.com/)
+- [Airport](https://trogir-car-rental.com/trogir-airport-car-rental)
+- [Driving Tips](https://trogir-car-rental.com/driving-in-trogir)
+- [Day Trips](https://trogir-car-rental.com/day-trips-from-trogir)
+- [Beaches](https://trogir-car-rental.com/trogir-beaches-by-car)
+- [FAQ](https://trogir-car-rental.com/trogir-car-rental-faq)
+- [About](https://trogir-car-rental.com/about)
+- [Contact](https://trogir-car-rental.com/contact)
+- [Privacy Policy](https://trogir-car-rental.com/privacy)
