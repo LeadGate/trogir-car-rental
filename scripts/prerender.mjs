@@ -11,7 +11,13 @@ if (!fs.existsSync(sitemapPath)) {
 }
 const sitemap = fs.readFileSync(sitemapPath, 'utf-8');
 
-const origin = (indexHtml.match(/<link rel="canonical" href="(https?:\/\/[^/"]+)/) || [])[1] || '';
+const firstLoc = (sitemap.match(/<loc>(https?:\/\/[^/<"]+)/) || [])[1] || '';
+const canonicalOrigin = (indexHtml.match(/<link rel="canonical" href="(https?:\/\/[^/"]+)/) || [])[1] || '';
+const origin = firstLoc || canonicalOrigin;
+if (!origin) {
+  console.error('[prerender] FATAL: cannot determine origin (no sitemap <loc> and no canonical)');
+  process.exit(1);
+}
 const fullTitle = (indexHtml.match(/<title>([^<]+)<\/title>/) || [])[1] || '';
 // Brand = part before first em-dash / en-dash / pipe / hyphen separator
 const brand = fullTitle.split(/\s+[—–|-]\s+/)[0].trim() || fullTitle;
