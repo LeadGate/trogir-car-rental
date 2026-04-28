@@ -27,6 +27,9 @@ const About = () => {
       >
         <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">About Trogir Car Rental</h1>
         <p className="text-gray-700 mb-4 leading-relaxed">
+          <strong>trogir-car-rental.com is an independent car rental booking guide</strong> for Trogir. <strong>trogir-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
           Trogir Car Rental is a car rental comparison service focused on Trogir. We aggregate offers from trusted local and international rental providers so you can easily compare prices, vehicle types, and rental conditions in one place.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
