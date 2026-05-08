@@ -63,7 +63,6 @@ const DrivingGuide = () => {
         title="Driving and Parking in Trogir | Rules & Prices"
         description="Trogir is a compact UNESCO-listed town on the Dalmatian coast, and the fastest way to explore Central Dalmatia is with a rental car booked through Split"
         canonical="https://trogir-car-rental.com/driving-in-trogir"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />
