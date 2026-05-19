@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
@@ -148,6 +149,8 @@ const FAQ = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+
+      <AffiliateWidget />
 
       <section className="container max-w-4xl py-10">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Trogir Car Rental FAQ</h2>

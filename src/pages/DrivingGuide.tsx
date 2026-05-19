@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Section from "@/components/Section";
 import ImageDivider from "@/components/ImageDivider";
@@ -75,6 +76,8 @@ const DrivingGuide = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+
+      <AffiliateWidget />
 
       <Section
         icon={<DollarSign className="w-6 h-6" />}
