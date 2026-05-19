@@ -151,7 +151,7 @@ const FAQ = () => {
 
       <section className="container max-w-4xl py-10">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Trogir Car Rental FAQ</h2>
-        <p className="text-gray-700 mb-4 leading-relaxed">Below you will find the most common questions about renting a car in Trogir. For route-specific advice, read our <Link to="/day-trips-from-trogir" className="text-primary underline hover:text-accent">Dalmatia day-trip itineraries</Link>, our <Link to="/driving-in-trogir" className="text-primary underline hover:text-accent">driving rules and parking prices guide</Link>, or our <Link to="/trogir-beaches-by-car" className="text-primary underline hover:text-accent">Ciovo Island beach access guide</Link>.</p>
+        <p className="text-gray-700 mb-4 leading-relaxed">Below you will find the most common questions about renting a car in Trogir. For route-specific advice, read our <Link to="/day-trips-from-trogir/" className="text-primary underline hover:text-accent">Dalmatia day-trip itineraries</Link>, our <Link to="/driving-in-trogir/" className="text-primary underline hover:text-accent">driving rules and parking prices guide</Link>, or our <Link to="/trogir-beaches-by-car/" className="text-primary underline hover:text-accent">Ciovo Island beach access guide</Link>.</p>
       </section>
 
       <section className="container max-w-4xl py-10">

@@ -3,11 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Airport", path: "/trogir-airport-car-rental" },
-  { label: "Driving Tips", path: "/driving-in-trogir" },
-  { label: "Day Trips", path: "/day-trips-from-trogir" },
-  { label: "Beaches", path: "/trogir-beaches-by-car" },
-  { label: "FAQ", path: "/trogir-car-rental-faq" },
+  { label: "Airport", path: "/trogir-airport-car-rental/" },
+  { label: "Driving Tips", path: "/driving-in-trogir/" },
+  { label: "Day Trips", path: "/day-trips-from-trogir/" },
+  { label: "Beaches", path: "/trogir-beaches-by-car/" },
+  { label: "FAQ", path: "/trogir-car-rental-faq/" },
 ];
 
 const Header = () => {

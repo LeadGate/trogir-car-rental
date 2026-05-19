@@ -50,7 +50,7 @@ const Contact = () => {
 
         <div className="mt-6 max-w-2xl space-y-6">
           <p className="text-foreground leading-relaxed">
-            Have a question about renting a car in Trogir? We&rsquo;re happy to help. You may also find answers in our <Link to="/trogir-car-rental-faq" className="text-primary underline hover:text-accent">car rental FAQ</Link>, our <Link to="/trogir-airport-car-rental" className="text-primary underline hover:text-accent">Split Airport pickup guide</Link>, or our <Link to="/driving-in-trogir" className="text-primary underline hover:text-accent">driving and parking tips</Link>.
+            Have a question about renting a car in Trogir? We&rsquo;re happy to help. You may also find answers in our <Link to="/trogir-car-rental-faq/" className="text-primary underline hover:text-accent">car rental FAQ</Link>, our <Link to="/trogir-airport-car-rental/" className="text-primary underline hover:text-accent">Split Airport pickup guide</Link>, or our <Link to="/driving-in-trogir/" className="text-primary underline hover:text-accent">driving and parking tips</Link>.
           </p>
 
           <div className="flex items-center gap-3 rounded-lg bg-card p-4 shadow-sm border">

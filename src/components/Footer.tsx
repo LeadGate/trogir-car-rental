@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 const footerLinks = [
-  { label: "Airport", path: "/trogir-airport-car-rental" },
-  { label: "Driving Tips", path: "/driving-in-trogir" },
-  { label: "Day Trips", path: "/day-trips-from-trogir" },
-  { label: "Beaches", path: "/trogir-beaches-by-car" },
-  { label: "FAQ", path: "/trogir-car-rental-faq" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-  { label: "Privacy Policy", path: "/privacy" },
+  { label: "Airport", path: "/trogir-airport-car-rental/" },
+  { label: "Driving Tips", path: "/driving-in-trogir/" },
+  { label: "Day Trips", path: "/day-trips-from-trogir/" },
+  { label: "Beaches", path: "/trogir-beaches-by-car/" },
+  { label: "FAQ", path: "/trogir-car-rental-faq/" },
+  { label: "About", path: "/about/" },
+  { label: "Contact", path: "/contact/" },
+  { label: "Privacy Policy", path: "/privacy/" },
 ];
 
 const Footer = () => (

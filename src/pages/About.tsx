@@ -27,7 +27,7 @@ const About = () => {
           Trogir Car Rental is a car rental comparison service focused on Trogir. We aggregate offers from trusted local and international rental providers so you can easily compare prices, vehicle types, and rental conditions in one place.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Our goal is to save you time and money by presenting transparent, up-to-date information about car hire options in Trogir and the surrounding area. Start by <Link to="/trogir-airport-car-rental" className="text-primary underline hover:text-accent">collecting your car at Split Airport</Link> or browse our <Link to="/trogir-car-rental-faq" className="text-primary underline hover:text-accent">car rental FAQ</Link> for insurance and deposit answers.
+          Our goal is to save you time and money by presenting transparent, up-to-date information about car hire options in Trogir and the surrounding area. Start by <Link to="/trogir-airport-car-rental/" className="text-primary underline hover:text-accent">collecting your car at Split Airport</Link> or browse our <Link to="/trogir-car-rental-faq/" className="text-primary underline hover:text-accent">car rental FAQ</Link> for insurance and deposit answers.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">How We Research</h3>
@@ -58,7 +58,7 @@ const About = () => {
 
         <h3 className="text-xl font-bold mt-6 mb-3">Our Commitment</h3>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          We are committed to providing accurate, helpful content about car rental in Trogir. Our guides, tips, and destination articles are created to help you plan a smooth and enjoyable trip. Explore our <Link to="/day-trips-from-trogir" className="text-primary underline hover:text-accent">day trips from Trogir</Link> or learn about <Link to="/driving-in-trogir" className="text-primary underline hover:text-accent">driving rules and parking in Croatia</Link>.
+          We are committed to providing accurate, helpful content about car rental in Trogir. Our guides, tips, and destination articles are created to help you plan a smooth and enjoyable trip. Explore our <Link to="/day-trips-from-trogir/" className="text-primary underline hover:text-accent">day trips from Trogir</Link> or learn about <Link to="/driving-in-trogir/" className="text-primary underline hover:text-accent">driving rules and parking in Croatia</Link>.
         </p>
       </Section>
     </Layout>
