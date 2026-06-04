@@ -120,6 +120,24 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
     `<meta property="og:title" content="${title}" />`,
     `    <meta property="og:title" content="${title}" />`,
   );
+  // og:type = article for content pages (single-source; per-route)
+  if (cfg && cfg.article) {
+    html = replaceOrInsert(html, /<meta property="og:type" content="[^"]*"\s*\/?>/,
+      `<meta property="og:type" content="article" />`, `    <meta property="og:type" content="article" />`);
+  }
+  // og:image + Twitter Card — from per-route article image (GEO/social preview)
+  if (cfg && cfg.article && cfg.article.image && !/\/og-image\.(png|jpe?g)$/i.test(cfg.article.image)) {
+    const img = escAttr(cfg.article.image);
+    const tTitle = escAttr(title);
+    html = replaceOrInsert(html, /<meta property="og:image" content="[^"]*"\s*\/?>/,
+      `<meta property="og:image" content="${img}" />`, `    <meta property="og:image" content="${img}" />`);
+    html = replaceOrInsert(html, /<meta name="twitter:card" content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:card" content="summary_large_image" />`, `    <meta name="twitter:card" content="summary_large_image" />`);
+    html = replaceOrInsert(html, /<meta name="twitter:title" content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:title" content="${tTitle}" />`, `    <meta name="twitter:title" content="${tTitle}" />`);
+    html = replaceOrInsert(html, /<meta name="twitter:image" content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:image" content="${img}" />`, `    <meta name="twitter:image" content="${img}" />`);
+  }
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
     '@context': 'https://schema.org',
