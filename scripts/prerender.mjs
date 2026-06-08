@@ -167,6 +167,8 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
       };
       if (cfg.article.wordCount) article.wordCount = cfg.article.wordCount;
+      const _ab = cfg.article.articleBody || cfg.article.body;
+      if (_ab) article.articleBody = _ab;
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(article, null, 2)}\n    </script>`);
     }
     if (Array.isArray(cfg.faqs) && cfg.faqs.length > 0) {
