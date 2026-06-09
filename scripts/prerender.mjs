@@ -105,6 +105,13 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
       `<meta property="og:description" content="${descAttr}" />`,
       `    <meta property="og:description" content="${descAttr}" />`,
     );
+    // twitter:description — keep in sync with page description (avoid stale site-default)
+    html = replaceOrInsert(
+      html,
+      /<meta name="twitter:description" content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:description" content="${descAttr}" />`,
+      `    <meta name="twitter:description" content="${descAttr}" />`,
+    );
   }
   // og:url — replace or insert
   html = replaceOrInsert(
@@ -119,6 +126,13 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
     /<meta property="og:title" content="[^"]*"\s*\/?>/,
     `<meta property="og:title" content="${title}" />`,
     `    <meta property="og:title" content="${title}" />`,
+  );
+  // twitter:title — sync to page title unconditionally (not only when og:image present)
+  html = replaceOrInsert(
+    html,
+    /<meta name="twitter:title" content="[^"]*"\s*\/?>/,
+    `<meta name="twitter:title" content="${escAttr(title)}" />`,
+    `    <meta name="twitter:title" content="${escAttr(title)}" />`,
   );
   // og:type = article for content pages (single-source; per-route)
   if (cfg && cfg.article) {
