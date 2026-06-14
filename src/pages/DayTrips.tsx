@@ -63,7 +63,7 @@ const DayTrips = () => {
       <SEOHead
         title="Day Trips From Trogir | Dalmatia Road Itinerary"
         description="Trogir is a practical base for driving in Central Dalmatia because SPU Split Airport, the A1 motorway, and the Adriatic coast are all within easy reach. A"
-        canonical="https://trogir-car-rental.com/day-trips-from-trogir"
+        canonical="https://trogir-car-rental.com/day-trips-from-trogir/"
       />
 
       <Breadcrumbs items={[{ label: "Day Trips" }]} />

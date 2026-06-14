@@ -11,7 +11,7 @@ const About = () => {
       <SEOHead
         title="About Trogir Car Rental | Car Rental in Trogir"
         description="Learn about Trogir Car Rental — your trusted car rental comparison service in Trogir. We help you find the best deals from local and international providers."
-        canonical="https://trogir-car-rental.com/about"
+        canonical="https://trogir-car-rental.com/about/"
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

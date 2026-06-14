@@ -63,7 +63,7 @@ const BeachGuide = () => {
       <SEOHead
         title="Ciovo Island Driving, Parking & Rental Tips"
         description="Ciovo Island is a short-drive destination on the Dalmatian coast, and the practical challenge is not distance but timing, parking, and bridge congestion."
-        canonical="https://trogir-car-rental.com/trogir-beaches-by-car"
+        canonical="https://trogir-car-rental.com/trogir-beaches-by-car/"
       />
 
       <Breadcrumbs items={[{ label: "Beaches" }]} />

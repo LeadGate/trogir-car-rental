@@ -41,7 +41,7 @@ const Contact = () => {
       <SEOHead
         title="Contact Trogir Car Rental | Get in Touch"
         description="Have a question about car rental in Trogir? Contact Trogir Car Rental for assistance."
-        canonical="https://trogir-car-rental.com/contact"
+        canonical="https://trogir-car-rental.com/contact/"
       />
 
       <Section>

@@ -7,7 +7,7 @@ const NotFound = () => (
     <SEOHead
       title="Page Not Found — Trogir Car Rental"
       description="The page you are looking for does not exist."
-      canonical="https://trogir-car-rental.com/404"
+      canonical="https://trogir-car-rental.com/404/"
       noindex={true}
     />
     <div className="container py-24 text-center">
