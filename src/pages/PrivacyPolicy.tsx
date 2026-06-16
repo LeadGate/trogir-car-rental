@@ -11,7 +11,6 @@ const PrivacyPolicy = () => {
         title="Privacy Policy | Trogir Car Rental"
         description="Privacy policy for Trogir Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://trogir-car-rental.com/privacy/"
-        noindex
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />
