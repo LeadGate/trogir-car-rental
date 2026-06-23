@@ -237,7 +237,7 @@ const ParkingPlanner = () => {
       </Section>
 
       <Section icon={<Zap className="w-6 h-6" />} title="Electric rental cars" alt>
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl items-start">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl items-start mt-6">
           <img
             src="/parking/walking-into-old-town.webp"
             alt="Traveller walking with a suitcase across the bridge into Trogir old town"
