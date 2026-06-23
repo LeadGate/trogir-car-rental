@@ -152,6 +152,12 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
     html = replaceOrInsert(html, /<meta name="twitter:image" content="[^"]*"\s*\/?>/,
       `<meta name="twitter:image" content="${img}" />`, `    <meta name="twitter:image" content="${img}" />`);
   }
+  // LCP hero preload — inject <link rel=preload as=image> for cfg.preloadImage (idempotent)
+  if (cfg && cfg.preloadImage && !html.includes(`rel="preload" as="image" href="${cfg.preloadImage}"`)) {
+    const preload = `    <link rel="preload" as="image" href="${escAttr(cfg.preloadImage)}" fetchpriority="high" />`;
+    html = html.replace(/<\/head>/, `${preload}\n  </head>`);
+  }
+
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
     '@context': 'https://schema.org',
@@ -183,6 +189,7 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
       if (cfg.article.wordCount) article.wordCount = cfg.article.wordCount;
       const _ab = cfg.article.articleBody || cfg.article.body;
       if (_ab) article.articleBody = _ab;
+      if (cfg.article.speakable) article.speakable = cfg.article.speakable;
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(article, null, 2)}\n    </script>`);
     }
     if (Array.isArray(cfg.faqs) && cfg.faqs.length > 0) {
@@ -196,6 +203,14 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         })),
       };
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(faqPage, null, 2)}\n    </script>`);
+    }
+    // Optional extra schemas (WebApplication / HowTo / ItemList / TouristAttraction …)
+    if (Array.isArray(cfg.extraSchemas)) {
+      for (const s of cfg.extraSchemas) {
+        if (!s || typeof s !== 'object') continue;
+        const obj = s['@context'] ? s : { '@context': 'https://schema.org', ...s };
+        blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(obj, null, 2)}\n    </script>`);
+      }
     }
     if (blocks.length) {
       html = html.replace(/<\/head>/, `${blocks.join('\n')}\n  </head>`);

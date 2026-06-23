@@ -7,6 +7,7 @@ const navItems = [
   { label: "Driving Tips", path: "/driving-in-trogir/" },
   { label: "Day Trips", path: "/day-trips-from-trogir/" },
   { label: "Beaches", path: "/trogir-beaches-by-car/" },
+  { label: "Parking", path: "/trogir-old-town-parking/" },
   { label: "FAQ", path: "/trogir-car-rental-faq/" },
 ];
 

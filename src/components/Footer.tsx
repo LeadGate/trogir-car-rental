@@ -5,6 +5,7 @@ const footerLinks = [
   { label: "Driving Tips", path: "/driving-in-trogir/" },
   { label: "Day Trips", path: "/day-trips-from-trogir/" },
   { label: "Beaches", path: "/trogir-beaches-by-car/" },
+  { label: "Parking", path: "/trogir-old-town-parking/" },
   { label: "FAQ", path: "/trogir-car-rental-faq/" },
   { label: "About", path: "/about/" },
   { label: "Contact", path: "/contact/" },
@@ -45,7 +46,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-8 pt-6 border-t border-border text-center text-sm text-muted-foreground">
-        <p className="text-xs opacity-70">Last updated: May 2026</p>
+        <p className="text-xs opacity-70">Last updated: June 2026</p>
         <p className="mt-1">&copy; 2026 trogir-car-rental.com</p>
       </div>
     </div>

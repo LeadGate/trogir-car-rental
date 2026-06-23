@@ -6,6 +6,7 @@ const AirportPage = lazy(() => import("./pages/AirportPage"));
 const DrivingGuide = lazy(() => import("./pages/DrivingGuide"));
 const DayTrips = lazy(() => import("./pages/DayTrips"));
 const BeachGuide = lazy(() => import("./pages/BeachGuide"));
+const ParkingPlanner = lazy(() => import("./pages/ParkingPlanner"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/driving-in-trogir" element={<DrivingGuide />} />
             <Route path="/day-trips-from-trogir" element={<DayTrips />} />
             <Route path="/trogir-beaches-by-car" element={<BeachGuide />} />
+            <Route path="/trogir-old-town-parking" element={<ParkingPlanner />} />
             <Route path="/trogir-car-rental-faq" element={<FAQ />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
