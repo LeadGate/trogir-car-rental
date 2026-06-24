@@ -46,7 +46,7 @@ const AirportPage = () => {
       "url": "https://trogir-car-rental.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://trogir-car-rental.com/favicon-512x512.png"
+        "url": "https://trogir-car-rental.com/favicon-512.png"
       }
     },
     "author": {
