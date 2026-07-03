@@ -147,7 +147,7 @@ const FAQ = () => {
         image="/7.webp"
         imageAlt="Car rental in Trogir"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
 
       <AffiliateWidget />
