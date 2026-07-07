@@ -26,18 +26,51 @@ const Index = () => {
 
   /* Organization + WebSite schemas are in index.html as static JSON-LD (rule #100) */
 
+  const faqSchema =
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is it cheaper to rent a car in Trogir or at Split Airport?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Renting in Trogir is often cheaper for city-centre delivery, but Split Airport can offer wider fleet choice and faster pickup. Economy cars start from €7 per day off-season, while a live 7 July 2026 check found 10 summer offers from €59.57/day for a Renault Megane, median €77.15/day. Airport access takes about 10–15 minutes, so the final price usually depends on season and location." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is insurance included in Trogir car rentals?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, CDW is commonly included, but the excess/deductible may still leave you liable for several hundred euros. Options like SCDW, zero excess, and full coverage can reduce that risk, and cross-border travel may require a Green Card. If you are driving only within Croatia, read the exclusions carefully because glass, tyres, and underbody damage may still be extra." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I drive from Trogir to Bosnia and Herzegovina or Montenegro?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, many companies allow cross-border travel with prior approval and a Green Card, and Avax states that 3+ day rentals include that paperwork. Sixt, for example, charges a cross-border fee of €11.20 per day, capped at €56, so border travel is usually possible but not always free. If your route is only coastal, staying within Croatia may be simpler and cheaper." }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best day trips from Trogir by car?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The best day trips include Krka National Park, Šibenik, Primosten, Klis Fortress, Sinj, and the islands linked by ferries such as Brac, Hvar, Solta, Drvenik Veli, and Drvenik Mali. Krka is about 80 km away and Šibenik about 55 km away, so most of these trips are realistic within one day. For a very short outing, beaches on Ciovo Island and around Uvala Duga are easier than inland routes." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which car type is best for Trogir and the Dalmatian coast?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A compact car such as a VW Golf, Opel Astra, or Skoda Octavia is usually the best balance of price, fuel use, and parking ease. SUVs such as the Nissan Qashqai and Opel Grandland are better for luggage-heavy trips or longer routes toward the Dinaric Alps. If you are staying only in Trogir Old Town and Čiovo Island, an economy car like a VW Up or Opel Corsa is often enough." }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <SEOHead
         title="Trogir Car Rental — Compare Deals | Trogir Car Rental"
         description="Renting a car in Trogir gives travellers a 6 km airport transfer, day-trip access to Krka National Park, and seasonally low rates from €7 per day in the"
         canonical="https://trogir-car-rental.com/"
-        jsonLd={[breadcrumbSchema]}
+        jsonLd={[breadcrumbSchema, faqSchema]}
       />
 
       <HeroSection
         title="Unlock Dalmatia: The Ultimate Guide to Renting a Car in Trogir"
-        subtitle={<><p>Renting a car in Trogir gives travellers a 6 km airport transfer, day-trip access to Krka National Park, and seasonally low rates from €7 per day in the off-season. Split Airport (SPU) sits about 10 minutes from Trogir, and 2025 eVisitor data shows 77% of visitors travelling independently, so a rental car matches the local demand for flexible itineraries.</p></>}
+        subtitle={<><p>A live 7 July 2026 check found 10 offers for Trogir from €59.57/day for a Renault Megane, median €77.15/day — off-season rates drop to about €7 per day, so the €7 headline is a low-season advance rate and summer 2026 bookings run much higher. Split Airport (SPU) sits about 10 minutes from Trogir with a 6 km transfer, and eVisitor data shows 77% of visitors travelling independently, so a rental car matches the local demand for flexible itineraries and day trips to Krka National Park.</p></>}
         image="/1.webp"
         imageAlt="Car rental in Trogir"
         ctaText="Compare Car Rental Deals"
