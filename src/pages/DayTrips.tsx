@@ -89,6 +89,20 @@ const DayTrips = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> The local government has announced new speed-camera enforcement for 2025-2026 on parts of Kastel Stafilic and Kastel Sucurac, so keep the posted limit even when traffic is light.</p></WarningBox>
           <h3 className="text-xl font-bold mt-6 mb-3">Car rental context for the Kastela Riviera</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Nova Rent a Car, Avax Rent a Car, Lutar Rent a Car, Zelrent, Luna Rent a Car, Sixt, Green Motion, Carwiz, and Maggiore all commonly serve the Split Airport area, and each company may quote a different deposit, franchise, or CDW/SCDW package for the same route. For example, an economy booking can be around €22-€35/day with a higher excess, while an SUV such as a Nissan Qashqai or Opel Grandland may cost €45-€85/day in peak season. For a larger family group, an Opel Zafira or Skoda Octavia is often more efficient than booking two smaller cars.</p>
+
+          {/* Yacht charter affiliate card (SEARADAR) */}
+          <div className="rounded-lg border-l-4 border-info-border bg-info-bg p-5 my-6">
+            <h3 className="text-lg font-bold mb-2">The Same Coast by Sea: Yacht Charter from Trogir</h3>
+            <p className="text-gray-700 text-sm mb-3 leading-relaxed">The Kastela corridor you drive past is also the busiest charter coast in Croatia: ACI Marina Trogir, Marina Baotic in Seget Donji and Marina Kastela sit within a few kilometres of Split Airport, and most Dalmatian charters change crews there on Saturdays. From the same berths, Solta, Brac, Hvar and Vis are all within a day's sail, which is the version of this itinerary that needs no ferry queue. A charter concierge compares boats, checks skipper availability and handles the paperwork before you commit.</p>
+            <a
+              href="https://searadar.tpx.lt/pPygAMyu?sub_id=trogir"
+              target="_blank"
+              rel="noopener nofollow sponsored"
+              className="text-primary underline hover:text-accent font-semibold"
+            >
+              Compare yacht charter options →
+            </a>
+          </div>
       </Section>
 
       <Section
