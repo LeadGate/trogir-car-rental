@@ -95,12 +95,12 @@ const DayTrips = () => {
             <h3 className="text-lg font-bold mb-2">The Same Coast by Sea: Yacht Charter from Trogir</h3>
             <p className="text-gray-700 text-sm mb-3 leading-relaxed">The Kastela corridor you drive past is also the busiest charter coast in Croatia: ACI Marina Trogir, Marina Baotic in Seget Donji and Marina Kastela sit within a few kilometres of Split Airport, and most Dalmatian charters change crews there on Saturdays. From the same berths, Solta, Brac, Hvar and Vis are all within a day's sail, which is the version of this itinerary that needs no ferry queue. A charter concierge compares boats, checks skipper availability and handles the paperwork before you commit.</p>
             <a
-              href="https://searadar.tpx.lt/pPygAMyu?sub_id=trogir"
+              href="https://searadar.tpx.lt/pPygAMyu?sub_id=trogir&u=https%3A%2F%2Fsearadar.com%2Fyacht-charter%2Ftrogir"
               target="_blank"
               rel="noopener nofollow sponsored"
               className="text-primary underline hover:text-accent font-semibold"
             >
-              Compare yacht charter options →
+              Compare yacht charters in Trogir →
             </a>
           </div>
       </Section>
