@@ -217,5 +217,14 @@
         "a": "Yes, Čiovo Island is reachable by car via the bridge that connects the island to the Trogir area, so you can drive directly instead of using a ferry. This makes it easy to reach Okrug Gornji, Uvala Duga, Medena Beach, and the southern parts of the Kastela Riviera in a rented VW Golf, Opel Corsa, or Skoda Octavia. During summer evenings, the return queue can reach 45-60 minutes, especially when day-trippers are leaving Trogir Old Town and Pantan Beach at the same time."
       }
     ]
+  },
+  "/about/": {
+    "title": "About Trogir Car Rental | Car Rental in Trogir"
+  },
+  "/contact/": {
+    "title": "Contact Trogir Car Rental | Get in Touch"
+  },
+  "/privacy/": {
+    "title": "Privacy Policy | Trogir Car Rental"
   }
 }

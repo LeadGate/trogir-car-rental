@@ -61,7 +61,7 @@ const AirportPage = () => {
   return (
     <Layout>
       <SEOHead
-        title="Split Airport Car Rental for Trogir | Guide"
+        title="Split Airport Car Rental Guide for Trogir Visitors"
         description="Split Airport car rental is the fastest way to reach Trogir Old Town, and the airport-to-town drive is usually 5.2 to 6.0 km in 10 to 15 minutes in normal"
         canonical="https://trogir-car-rental.com/trogir-airport-car-rental/"
       />

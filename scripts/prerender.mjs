@@ -235,7 +235,10 @@ for (const loc of locs) {
 
   const cfg = lookupCfg(slug);
   // Title: prefer cfg.article.headline if present, else auto-gen
-  const title = (cfg && cfg.article && cfg.article.headline) || `${slugToTitle(slug)} | ${brand}`;
+  // Title priority: explicit cfg.title (pages with no Article schema) > cfg.article.headline
+  // > auto-gen. Must stay byte-identical to the title the page sets client-side, otherwise
+  // hydration flips it and crawler/Google see different strings.
+  const title = (cfg && (cfg.title || (cfg.article && cfg.article.headline))) || `${slugToTitle(slug)} | ${brand}`;
   // Description: only patch if cfg.article.description provided (else preserve existing static/homepage value)
   const description = cfg && cfg.article && cfg.article.description ? cfg.article.description : null;
   const patched = patchHead(indexHtml, { slug, canonical: loc, title, description, cfg });

@@ -134,7 +134,7 @@ const FAQ = () => {
   return (
     <Layout>
       <SEOHead
-        title="Trogir Car Rental FAQ | Top Questions Answered"
+        title="Trogir Car Rental FAQ: Your Top Questions Answered"
         description="Trogir car rental is straightforward for drivers with a valid license, a credit card, and the right insurance documents. Split Airport (SPU) is only"
         canonical="https://trogir-car-rental.com/trogir-car-rental-faq/"
       />
