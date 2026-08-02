@@ -76,6 +76,17 @@ function lookupCfg(slug) {
 }
 
 function patchHead(html, { slug, canonical, title, description, cfg }) {
+  const isHomeRoute = slug === '/' || slug === '';
+  // The template index.html carries the HOMEPAGE FAQPage, and this function
+  // copies that template into every route — so every route shipped an inherited
+  // homepage FAQPage describing questions it does not have. Where the route also
+  // had its own schema, the page ended up with two FAQPage blocks, one of them
+  // false. Strip the inherited homepage FAQPage on non-home routes.
+  if (!isHomeRoute) {
+    html = html.replace(
+      /\s*<script type="application\/ld\+json">\s*\{[^<]*?"@type":\s*"FAQPage"[\s\S]*?<\/script>/g,
+      '');
+  }
   // Canonical — replace or insert
   html = replaceOrInsert(
     html,
