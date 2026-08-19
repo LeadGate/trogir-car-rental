@@ -62,7 +62,7 @@ const BeachGuide = () => {
     <Layout>
       <SEOHead
         title="Ciovo Island Beaches by Car: Driving & Parking Tips for Trogir"
-        description="Ciovo Island is a short-drive destination on the Dalmatian coast, and the practical challenge is not distance but timing, parking, and bridge congestion."
+        description="Drive to Ciovo Island beaches from Trogir: SPU is 6 km away, Okrug Gornji parking €3-€4/hour. Arrive before 09:30 in summer for beach parking with shade."
         canonical="https://trogir-car-rental.com/trogir-beaches-by-car/"
       />
 

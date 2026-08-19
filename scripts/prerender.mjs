@@ -251,7 +251,7 @@ for (const loc of locs) {
   // hydration flips it and crawler/Google see different strings.
   const title = (cfg && (cfg.title || (cfg.article && cfg.article.headline))) || `${slugToTitle(slug)} | ${brand}`;
   // Description: only patch if cfg.article.description provided (else preserve existing static/homepage value)
-  const description = cfg && cfg.article && cfg.article.description ? cfg.article.description : null;
+  const description = (cfg && (cfg.description || (cfg.article && cfg.article.description))) || null;
   const patched = patchHead(indexHtml, { slug, canonical: loc, title, description, cfg });
   fs.writeFileSync(path.join(outDir, 'index.html'), patched);
   count += 1;

@@ -62,7 +62,7 @@ const DrivingGuide = () => {
     <Layout>
       <SEOHead
         title="Driving & Parking in Trogir: Rules, Tips, and 2026 Prices"
-        description="Trogir is a compact UNESCO-listed town on the Dalmatian coast, and the fastest way to explore Central Dalmatia is with a rental car booked through Split"
+        description="Driving in Trogir: UNESCO Old Town is pedestrian-only. Best parking is T4 at €10/day. Peak fines are €20-€80. Arrive before 10:00 for stress-free parking."
         canonical="https://trogir-car-rental.com/driving-in-trogir/"
       />
 

@@ -219,12 +219,15 @@
     ]
   },
   "/about/": {
-    "title": "About Trogir Car Rental | Car Rental in Trogir"
+    "title": "About Trogir Car Rental | Car Rental in Trogir",
+    "description": "Learn about Trogir Car Rental \u2014 your trusted car rental comparison service in Trogir. We help you find the best deals from local and international providers."
   },
   "/contact/": {
-    "title": "Contact Trogir Car Rental | Get in Touch"
+    "title": "Contact Trogir Car Rental | Get in Touch",
+    "description": "Have a question about car rental in Trogir? Contact Trogir Car Rental for assistance."
   },
   "/privacy/": {
-    "title": "Privacy Policy | Trogir Car Rental"
+    "title": "Privacy Policy | Trogir Car Rental",
+    "description": "Privacy policy for Trogir Car Rental. Learn how we handle your data and protect your privacy."
   }
 }

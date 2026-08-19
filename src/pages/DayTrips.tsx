@@ -62,7 +62,7 @@ const DayTrips = () => {
     <Layout>
       <SEOHead
         title="Trogir Road Trip Itinerary: Best Day Trips in Dalmatia"
-        description="Trogir is a practical base for driving in Central Dalmatia because SPU Split Airport, the A1 motorway, and the Adriatic coast are all within easy reach. A"
+        description="Explore Dalmatia from Trogir: economy rentals from €22/day, Kastela Riviera 27 km in 30-40 min, Primosten 30 km, Sibenik 55 km, and Krka access via the A1."
         canonical="https://trogir-car-rental.com/day-trips-from-trogir/"
       />
 

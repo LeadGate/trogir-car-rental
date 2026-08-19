@@ -63,7 +63,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="Trogir Car Rental — Compare Local & International Deals"
-        description="Renting a car in Trogir gives travellers a 6 km airport transfer, day-trip access to Krka National Park, and seasonally low rates from €7 per day in the"
+        description="Compare car rental deals in Trogir, Croatia. Economy from €7/day. Split Airport pickup in 10 min. Local and international providers compared side by side."
         canonical="https://trogir-car-rental.com/"
         jsonLd={[breadcrumbSchema, faqSchema]}
       />

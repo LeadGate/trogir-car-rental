@@ -135,7 +135,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Trogir Car Rental FAQ: Your Top Questions Answered"
-        description="Trogir car rental is straightforward for drivers with a valid license, a credit card, and the right insurance documents. Split Airport (SPU) is only"
+        description="Trogir car rental FAQ: SPU is 5.2-6.0 km from Trogir, IDP required for non-EU drivers, cross-border fees up to €11.20/day, and Parking T4 costs €1/hour."
         canonical="https://trogir-car-rental.com/trogir-car-rental-faq/"
       />
 
